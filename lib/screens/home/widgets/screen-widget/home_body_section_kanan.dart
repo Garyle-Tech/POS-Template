@@ -38,6 +38,7 @@ class HomeBodySectionKanan extends StatelessWidget {
             ),
             // ini footer untuk pembayaran
             // ini bagian bawah nya, berisi button untuk save bill, print bill, split bill, dan charge
+            const Spacer(),
             _footerPayment(),
           ],
         ),
@@ -48,7 +49,6 @@ class HomeBodySectionKanan extends StatelessWidget {
   Widget _footerPayment() {
     return Column(
       children: [
-        const Spacer(),
         Row(
           children: [
             Expanded(
